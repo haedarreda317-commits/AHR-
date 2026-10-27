@@ -7,7 +7,7 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-   steps:
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -28,7 +28,7 @@ runs-on: ubuntu-latest
       - name: Add Android platform
         run: |
           npm install
-    @capacitor/android@^7.4.3
+   @capacitor/android@^7.4.3
           npx cap add android
 
       - name: Sync Android project
