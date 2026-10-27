@@ -1,0 +1,20 @@
+{
+  "name": "ahr-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AHR daily planner mobile app",
+  "scripts": {
+    "build": "echo 'Static app: files are in www/'",
+    "android:add": "npx cap add android",
+    "ios:add": "npx cap add ios",
+    "sync": "npx cap sync",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
